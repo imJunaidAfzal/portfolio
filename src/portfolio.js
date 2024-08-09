@@ -171,26 +171,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "GC University Lahore",
+      logo: require("./assets/images/gcLogo.png"), // Use the appropriate logo
+      subHeader: "BS in Computer Science",
+      duration: "October 2017 - Jan 2021",
+      desc: "Focused on AI and Machine Learning, contributing to research in Generative AI and Computer Vision.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Executed a Final Year Project on 'Fictor: Face Predictor' utilizing generative AI to predict children's appearances based on parental facial features.",
+        "Participated in the development and optimization of AI models, leading to the publication of research papers in AI and Computer Vision."
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -225,32 +218,40 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning Engineer",
+      company: "Kodezi",
+      companylogo: require("./assets/images/kd.png"),
+      date: "July 2022 – Present",
+      desc: "Developed and deployed AI models, contributing to significant funding rounds.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created POCs that helped secure $40,000 in Angel Investment and $800,000 in Pre-Seed Round.",
+        "Deployed AI pipelines serverlessly, optimizing performance and scalability."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Machine Learning Engineer",
+      company: "Ekkel AI",
+      companylogo: require("./assets/images/ekkel.png"), // Add a relevant logo
+      date: "July 2022 – Jan 2024",
+      desc: "Led global AI solution deployments, directly interfacing with clients to master their needs",
+      descBullets: [
+        "Led the development of AI models, helping various departments understand and utilize AI insights.",
+        "Engineered and deployed APIs for AI infrastructure, ensuring seamless integration with existing systems."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance ML Engineer",
+      company: "Various Clients",
+      companylogo: require("./assets/images/fi.png"), // Add a relevant logo
+      date: "November 2019 – July 2022",
+      desc: "Delivered AI services globally, focusing on GenAI, LLMs, and Computer Vision projects.",
+      descBullets: [
+        "Developed diverse AI products, leveraging cutting-edge technologies like GPT-4, stable diffusion, and NLP.",
+        "Successfully completed multiple AI projects, ranging from chatbots to complex computer vision systems."
+      ]
     }
   ]
 };
